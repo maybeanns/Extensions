@@ -1,0 +1,25 @@
+body {
+    width: 400px;
+    height: 300px;
+    background-color: aliceblue;
+    display: flex; /* Flexbox layout for centering */
+    justify-content: center;
+    align-items: center; /* Center content vertically */
+    overflow: hidden; /* Prevent content overflow */
+    position: relative; /* Necessary for proper layering */
+}
+
+p {
+    display: inline-flex;
+    font-size: 22px;
+    color: black;
+    border-radius: 6px;
+    border: 1px solid lightblue;
+    padding: 10px;
+    /* max-width: 100%; Ensure the text doesn't exceed the box width */
+    max-height: 100%; /* Ensure the text doesn't exceed the box height */
+    /* overflow: hidden; Hide overflow text */
+    text-overflow: ellipsis; /* Add ellipsis (...) for overflow text */
+    /* white-space: nowrap; Prevent text from wrapping to the next line */
+    background-color: rgba(255, 255, 255, 0.8); /* Optional: semi-transparent background for the text box */
+}
