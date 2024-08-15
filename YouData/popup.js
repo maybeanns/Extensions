@@ -1,5 +1,5 @@
 // Replace with your own YouTube Data API key
-const apiKey = 'AIzaSyCpZxp80I3rEPdDu6FSv5MMfAwWyXcjc_c';
+const apiKey = '';
 
 document.addEventListener('DOMContentLoaded', function() {
     chrome.tabs.query({ active: true, lastFocusedWindow: true }, tabs => {
