@@ -12,3 +12,7 @@ Collection of chrome extensions I made.
 ## 3. Dad Jokes
 ![Untitled design (1)](https://github.com/user-attachments/assets/3bbf1e98-2902-4c49-91eb-96c03f2c1b2b)
 - Displays new joke everytime you open the extension.
+
+## 4. Product Review Analyzer
+![icon128](https://github.com/user-attachments/assets/600cec73-f788-4953-810f-be9816a53bf3)
+- Analyses reviews to dislplay the sentiment percentages of customer reviews 
