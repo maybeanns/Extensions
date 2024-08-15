@@ -25,7 +25,7 @@ document.getElementById('send-btn').addEventListener('click', () => {
   }
   
   async function getResponseFromGemini(userInput) {
-    const apiKey = 'AIzaSyAYgDvf83zMgrHsiLJ2JoqaTaxPVS-pei8';  // Replace with your actual API key
+    const apiKey = '';  // Replace with your actual API key
     const url = `https://generativeai.googleapis.com/v1beta2/models/text-bison-001:generateText?key=${apiKey}`;
   
     const requestBody = {
